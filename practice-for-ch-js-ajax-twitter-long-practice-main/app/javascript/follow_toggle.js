@@ -12,6 +12,8 @@ export default class FollowToggle {
     // Your code here
     event.preventDefault();
     console.log(this.followState);
+
+    (this.followState === "followed") ? this.
   }
 
   async follow() {

@@ -13,15 +13,17 @@ export default class FollowToggle {
     event.preventDefault();
     console.log(this.followState);
 
-    (this.followState === "followed") ? this.
+    (this.followState === "followed") ? this.unfollow() : this.follow();
   }
 
   async follow() {
     // Your code here
+    console.log("You're following")
   }
 
   async unfollow() {
     // Your code here
+    console.log("You're no longer following")
   }
 
   render() {
